@@ -1,0 +1,18 @@
+﻿<Window x:Class="cPortKontrol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="C# Port Control - Crazy3" Height="311" Width="505" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="109*"/>
+            <ColumnDefinition Width="390*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Control" FontSize="12" Height="30" HorizontalAlignment="Left" Margin="18,90,0,0" x:Name="btnCheck" VerticalAlignment="Top" Width="175" Click="btnControl_Click" TabIndex="3" Grid.ColumnSpan="2" />
+        <TextBox FontSize="16" Height="30" HorizontalAlignment="Left" Margin="68,50,0,0" Name="txtHost" VerticalAlignment="Top" Width="125" TabIndex="2" Grid.ColumnSpan="2" />
+        <Label Content="Status:" FontSize="16" Height="136" HorizontalAlignment="Left" Margin="18,130,0,0" x:Name="lblStatus" VerticalAlignment="Top" Width="191" Grid.ColumnSpan="2" />
+        <TextBox FontSize="16" Height="30" HorizontalAlignment="Left" Margin="68,10,0,0" Name="txtPort" VerticalAlignment="Top" Width="125" TabIndex="1" Grid.ColumnSpan="2" />
+        <Label Content=" Port:" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" Width="50" />
+        <Label Content="IP:" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="18,50,0,0" Name="label2" VerticalAlignment="Top" Width="50" />
+        <Image Height="256" HorizontalAlignment="Left" Margin="106.092,10,0,0" Name="image1" Source="/cPortControl;component/Images/portkontrol.png" Stretch="Fill" VerticalAlignment="Top" Width="256" Grid.Column="1" />
+    </Grid>
+</Window>
